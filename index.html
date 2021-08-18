@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="app-header">
+        <select id="source-lang">
+            <option>Source lang</option>
+        </select>
+        <select id="target-lang">
+            <option>Target lang</option>
+        </select>
+        <textarea id="source-text"></textarea>
+        <textarea id="target-text"></textarea>       
+    </header>
+
+    <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+    <script src="app.js"></script>
+</body>
+</html>
